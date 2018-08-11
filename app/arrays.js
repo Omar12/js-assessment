@@ -69,6 +69,10 @@ exports.arraysAnswers = {
   },
 
   duplicates: function(arr) {
+    // O(n2)
+    // the algorithm processes 2 arrays.
+    // think of making it faster.
+    
     let sortedArr = arr.slice().sort();
     let result = [];
     
